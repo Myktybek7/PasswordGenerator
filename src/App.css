@@ -1,0 +1,97 @@
+div {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
+
+p {
+  color: red;
+  font-size: 14px;
+}
+
+div p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li strong {
+  font-weight: bold;
+}
+
+button + button {
+  margin-left: 10px;
+  background-color: #007bff;
+}
+
+button + button:hover {
+  background-color: #0069d9;
+}
+
+button + button:active {
+  background-color: #0056b3;
+}
+
+div label input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+div label {
+  margin-bottom: 10px;
+}
